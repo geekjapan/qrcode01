@@ -87,13 +87,26 @@ typings/
 dist
 out
 
+# Build/package artifacts
+deploy.zip
+
 # Azure Functions artifacts
 bin
 obj
 appsettings.json
 local.settings.json
 
+# Azure local state
+.azure/
+
 # Azurite artifacts
 __blobstorage__
 __queuestorage__
 __azurite_db*__.json
+
+# Local env variants
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
